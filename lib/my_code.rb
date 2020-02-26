@@ -9,7 +9,7 @@ def map source
   return ret
 end
 
-def reduce source start=0
+def reduce source, start=0
   # either start is index or starting value?
   ret = start
   source.each do |val|
