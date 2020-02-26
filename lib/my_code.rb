@@ -7,5 +7,4 @@ def map source
     ret << (yield val)
   end
   return ret
-
 end
