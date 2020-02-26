@@ -13,7 +13,7 @@ def reduce source, start=0
   # either start is index or starting value?
   memo = 0
   source.each do |val|
-    memo = (yield (memo, val))
+    memo = yield (memo, val)
   end
   return memo
 end
