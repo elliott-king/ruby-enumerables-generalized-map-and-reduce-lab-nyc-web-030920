@@ -15,5 +15,5 @@ def reduce source, start=0
   source.each do |val|
     memo = (yield (memo, val))
   end
-  return ret
+  return memo
 end
