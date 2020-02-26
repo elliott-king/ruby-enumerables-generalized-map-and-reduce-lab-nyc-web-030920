@@ -18,7 +18,6 @@ def reduce source, start=nil
     memo = source[0]
     i = 1
   end
-  memo = start
   while i < source.length
     val = source[i]
     memo = yield(memo, val)
