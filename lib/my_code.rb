@@ -26,7 +26,3 @@ def reduce source, start=nil
 
   return memo
 end
-
-def reduce(array, sv=nil)
-
-end
